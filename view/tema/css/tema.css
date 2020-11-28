@@ -1,0 +1,94 @@
+#topo{
+
+    min-height: 100px;
+    background-color: #000000;
+    color: #fff;
+        
+    }
+    
+    #rodape{
+         
+    min-height: 100px;
+    background-color: #d3b71a;  
+    color: #fff; 
+    padding-top:50px;
+    margin-top:160px;  
+      
+    }
+    
+    #conteudo{
+        
+       min-height: 450px; 
+    }
+    
+    #lateral{
+        
+       border-right: 1px solid #adadad;
+       height: 100%;
+      }
+    
+      .transparente{
+       opacity: 0.9;   
+          
+      }
+    
+    
+    /* CLASSES OVERRIDE DO BOOTSTRAP para personalização*/
+    
+    /* navbar e menu navbar */
+    .navbar-inverse{
+        border-radius: 0;
+        
+    }
+    
+    
+    .navbar-inverse .navbar-nav > li > a{
+        
+      color: #fff;
+      font-size: 16px;  
+        
+    }
+    .navbar-inverse .navbar-nav > li > a:hover{
+        
+     background-color: rgb(0, 0, 0);
+     border-radius: 10px;
+     color: #eb9316;
+        
+    }
+    
+    /* menu lateral com list group*/
+    
+    
+    
+    .thumbnail{
+      border-radius: 13px;
+      box-shadow:6px 6px 10px #adadad;
+    }
+    
+    
+    
+    .espacamento{
+      margin-left:25px;
+    }
+    
+    
+    #bloco_login_adm{
+     background-color: #fff;
+     border-radius: 15px;
+     margin: 20px;
+     padding: 30px;
+        
+        
+    }
+    
+    
+    
+    /*
+    .pagination>li>a{
+        
+        background-color:#204d74; 
+        color: #fff;
+    }
+    */
+
+   
